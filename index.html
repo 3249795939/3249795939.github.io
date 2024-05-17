@@ -1,42 +1,102 @@
 <!doctype html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width , initial-scale=1">
-  <title>2023级CS02 第二小组网页</title>
-  <style type="text/css">
-    body{
-	 font-size: 20px;
-	}
-	a{
-	 font-size:1.2em;
-	 display: inline-block ; 
-	 padding: 0.5em 1em ;
-	 margin: 0.2em ;
-	 width: 3em ;
-	 text-decoration: none ;
-	 background-color: navy ;
-	 color: white;
-	}
-	a:hover{
-	 background-color: blue ;
-     text-decoration: underline ;
-	}
-	h1{
-	 background: yellow;
-	 color: red ;
-	}
-  </style>
- </head>
- <body>
-  <h1>
-     江西科技师大2023级CS02班第二小组网页
-   </h1>
-   <a href="cs02/20232442.html">陈益炜 </a>
-	<a href="cs02/20232443.html">余影 </a>
-	<a href="cs02/20232444.html">徐聪 </a>
-	<a href="cs02/20232445.html">王齐文 </a>
-	<a href="cs02/20232446.html">杨佳祥 </a>
-	<a href="cs02/20232447.html">丁志斌 </a>
- </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2023级CS02班第二小组</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            height: 100vh;
+        }
+        .title {
+            font-size: 3vw;
+            background-color: yellow;
+            text-align: center;
+            margin-bottom: 1vw;
+        }
+
+        .team-title {
+            color: blue;
+            margin-left: 2vw;
+            font-size: 2.5vw;
+        }
+        .team {
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item {
+            margin-top: 1vw;
+            margin-left: 1%;
+            margin-right: 1%;
+            box-sizing: border-box;
+            border: 1px solid skyblue;
+            border-radius: 10px;
+            width: 8%;
+            text-align: center;
+            padding: 10px;
+            background-color: #fafafa;
+            color: black;
+            text-decoration: none;
+            font-size: 2vw;
+        }
+        .line {
+            width: 100vw;
+            height: 1px;
+            background-color: black;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+        }
+        .item:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .copyright {
+            height: 1vw;
+            width: 100vw;
+            left: 0;
+            bottom: 20px;
+            position: absolute;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1 class="title">
+        江西科技师大2023级CS02班第二小组网页
+    </h1>
+    <div class="team-title">
+        一班
+    </div>
+    <div class="team">
+        <a class="item" href="#">第一组</a>
+        <a class="item" href="#">第二组</a>
+        <a class="item" href="#">第三组</a>
+        <a class="item" href="#">第四组</a>
+        <a class="item" href="#">第五组</a>
+        <a class="item" href="#">第六组</a>
+        <a class="item" href="#">第七组</a>
+    </div>
+    <div class="line"></div>
+    <div class="team-title">
+        二班
+    </div>
+    <div class="team">
+        <a class="item" href="#">第一组</a>
+        <a class="item" href="#">第二组</a>
+        <a class="item" href="#">第三组</a>
+        <a class="item" href="#">第四组</a>
+        <a class="item" href="#">第五组</a>
+        <a class="item" href="#">第六组</a>
+    </div>
+    <div class="line"></div>
+    <div class="copyright">版权所属: 23届web</div>
+</div>
+</body>
 </html>
